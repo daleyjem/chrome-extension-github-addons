@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Github Addons",
+	"description": "Addons for performing additional tasks on Github.com pages.",
+	"version": "0.1",
+
+	"content_scripts": [
+		{
+			"matches": ["https://*/*/issues*"],
+			"js": ["jquery.js", "main.js"],
+			"css": ["main.css"]
+		}
+	],
+
+	"browser_action": {
+
+	}
+}

@@ -1,0 +1,31 @@
+.color-label-list li {
+	position: relative;
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+.dj-filter-item-hider {
+	text-align: center;
+	font-size: 24px;
+	line-height: 0.6;
+	color: #ccc;
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	width: 15px;
+	height: 15px;
+	border: solid 1px #ccc;
+	border-radius: 50%;
+}
+
+.dj-filter-item-hider:before {
+	content: '-';
+	display: block;
+	line-height: 0.5em;
+	letter-spacing: -1px;
+}
+
+.filter-item.color-label.strike {
+	text-decoration: line-through;
+	font-style: italic;
+}
